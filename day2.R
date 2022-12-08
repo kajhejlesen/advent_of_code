@@ -1,6 +1,6 @@
 library(tidyverse)
 
-input <- read_delim("input/day2-test.txt", col_names = FALSE)
+input <- read_delim("input/day2.txt", col_names = FALSE)
 
 ### Day 2-1
 opponent <- c("A" = 0, "B" = 1, "C" = 2)
